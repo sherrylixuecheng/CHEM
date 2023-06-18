@@ -1,0 +1,2900 @@
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.125157035057009
+          fun: -2.125157035057009
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([6.0548717 , 2.40923412, 4.97455513, 3.32314479, 3.56912924,
+       5.8156952 , 0.44633272, 0.54744954])
+          jac: array([-8.77004684e-06, -2.21400543e-06,  6.69155378e-06,  3.59941086e-06,
+       -2.46030749e-06,  2.96330287e-06,  8.25815297e-06, -3.04390344e-06])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 35
+          nit: 29
+         njev: 35
+     opt_time: 0.034226179122924805
+ staging_time: 1.3493380546569824
+       status: 0
+      success: True
+            x: array([6.35745652e+00, 3.14158910e+00, 6.27800953e+00, 6.28324578e+00,
+       6.28318294e+00, 3.14159860e+00, 7.96441799e-06, 4.96240896e-05])
+[6.35745652e+00 3.14158910e+00 6.27800953e+00 6.28324578e+00
+ 6.28318294e+00 3.14159860e+00 7.96441799e-06 4.96240896e-05]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1251570350679145
+          fun: -2.1251570350679145
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([2.49296356, 3.38548539, 2.63387681, 4.3053611 , 1.28461137,
+       5.51737457, 0.17208132, 4.21267161])
+          jac: array([ 4.74068909e-06,  9.43242166e-06, -4.57680739e-06,  6.88003234e-08,
+        8.39933291e-06,  2.25442824e-06,  5.31738219e-06, -9.55575166e-08])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 29
+          nit: 27
+         njev: 29
+     opt_time: 0.015588045120239258
+ staging_time: 1.0794615745544434
+       status: 0
+      success: True
+            x: array([3.21587431e+00, 3.14160328e+00, 3.13639881e+00, 3.14158481e+00,
+       3.14160063e+00, 6.28319963e+00, 4.38230472e-06, 3.14159444e+00])
+[3.21587431e+00 3.14160328e+00 3.13639881e+00 3.14158481e+00
+ 3.14160063e+00 6.28319963e+00 4.38230472e-06 3.14159444e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213864199700008
+          fun: -2.1213864199700008
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([1.88278584, 1.67652521, 3.90269897, 3.32469783, 0.84559074,
+       3.22690651, 1.15886985, 4.93440626])
+          jac: array([-2.40004160e-06,  1.77120797e-05,  1.29020739e-05,  5.35619624e-06,
+        4.59633222e-06,  2.31654109e-05, -2.53210960e-06, -1.20090212e-07])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 17
+          nit: 14
+         njev: 17
+     opt_time: 0.011991500854492188
+ staging_time: 1.831719160079956
+       status: 0
+      success: True
+            x: array([-1.40081641e-05,  3.15796664e+00,  4.75575453e+00,  4.71231952e+00,
+        4.09955086e-06,  3.15808614e+00,  1.52743423e+00,  4.71246053e+00])
+[-1.40081641e-05  3.15796664e+00  4.75575453e+00  4.71231952e+00
+  4.09955086e-06  3.15808614e+00  1.52743423e+00  4.71246053e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1251570349300253
+          fun: -2.1251570349300253
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([0.32337798, 2.76968993, 0.18771777, 2.8703678 , 4.07869234,
+       1.7497872 , 4.24903486, 3.71250057])
+          jac: array([-5.40224578e-06, -1.37253687e-06,  4.10955888e-06,  1.04570936e-06,
+        5.95143429e-06, -6.58041713e-06, -1.22792223e-05, -1.51598812e-06])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 29
+          nit: 25
+         njev: 29
+     opt_time: 0.014491796493530273
+ staging_time: 1.4931421279907227
+       status: 0
+      success: True
+            x: array([-7.42821122e-02,  3.14159199e+00,  5.19314923e-03,  3.14155985e+00,
+        6.28319085e+00,  3.14155217e+00,  6.28317367e+00,  3.14153306e+00])
+[-7.42821122e-02  3.14159199e+00  5.19314923e-03  3.14155985e+00
+  6.28319085e+00  3.14155217e+00  6.28317367e+00  3.14153306e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.12138675574951
+          fun: -2.12138675574951
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([1.58953506, 2.73187577, 4.89700732, 1.24209196, 5.42234642,
+       6.17888869, 1.02945116, 3.75315986])
+          jac: array([ 6.03542768e-06,  7.09403233e-07,  4.68506169e-06, -8.05191589e-06,
+        5.05838007e-06, -7.09220781e-07,  5.52677730e-06,  5.61542435e-09])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 32
+          nit: 27
+         njev: 32
+     opt_time: 0.03173208236694336
+ staging_time: 1.2680087089538574
+       status: 0
+      success: True
+            x: array([ 5.02220577e-05,  1.77732004e+00,  4.71239282e+00,  1.57078283e+00,
+        6.28314092e+00,  8.06050122e+00, -1.57079033e+00,  7.85397936e+00])
+[ 5.02220577e-05  1.77732004e+00  4.71239282e+00  1.57078283e+00
+  6.28314092e+00  8.06050122e+00 -1.57079033e+00  7.85397936e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.121386755391658
+          fun: -2.121386755391658
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([1.86485255, 1.17948727, 0.50731235, 4.63975722, 2.77282763,
+       0.99469023, 5.52880743, 1.72213603])
+          jac: array([ 7.93072896e-06,  2.26106155e-05,  1.51994166e-06,  1.02150794e-06,
+       -2.11454098e-05, -4.11191630e-06,  1.51984124e-06,  9.74742274e-08])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 27
+          nit: 20
+         njev: 27
+     opt_time: 0.025147676467895508
+ staging_time: 1.2757682800292969
+       status: 0
+      success: True
+            x: array([3.14159848e+00, 1.70723899e-05, 2.88425660e-01, 4.71241551e+00,
+       3.14157273e+00, 3.14157472e+00, 5.99476075e+00, 4.71240325e+00])
+[3.14159848e+00 1.70723899e-05 2.88425660e-01 4.71241551e+00
+ 3.14157273e+00 3.14157472e+00 5.99476075e+00 4.71240325e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867557336163
+          fun: -2.1213867557336163
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([2.10742967, 3.91140495, 2.75292377, 4.62368364, 3.25491877,
+       3.63707585, 4.05488566, 6.22176259])
+          jac: array([ 6.16937181e-08, -5.91952975e-06, -1.92464780e-06,  2.25936555e-06,
+       -6.19962860e-06,  5.91935925e-06, -4.18257065e-06, -5.36767579e-06])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 19
+          nit: 18
+         njev: 19
+     opt_time: 0.007353782653808594
+ staging_time: 1.8558790683746338
+       status: 0
+      success: True
+            x: array([3.14159034, 6.01133852, 1.5708177 , 4.71239157, 3.14158619,
+       2.86976298, 4.71236445, 4.71237689])
+[3.14159034 6.01133852 1.5708177  4.71239157 3.14158619 2.86976298
+ 4.71236445 4.71237689]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867558349624
+          fun: -2.1213867558349624
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([1.68665186, 3.14085438, 4.26772793, 5.0500413 , 2.39352373,
+       0.41429029, 1.8104722 , 5.71514469])
+          jac: array([ 3.30459008e-06, -6.47886736e-07, -5.50269511e-06, -2.81972996e-06,
+       -3.15964915e-06, -6.47921079e-07,  5.87158917e-08,  1.47243702e-06])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 14
+          nit: 13
+         njev: 14
+     opt_time: 0.006657600402832031
+ staging_time: 1.676945447921753
+       status: 0
+      success: True
+            x: array([ 3.14159686,  4.01540967,  4.71238231,  4.7123847 ,  3.1415929 ,
+       -0.87381601,  1.5707921 ,  4.71239547])
+[ 3.14159686  4.01540967  4.71238231  4.7123847   3.1415929  -0.87381601
+  1.5707921   4.71239547]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1251570349144338
+          fun: -2.1251570349144338
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([3.28406182, 3.0058243 , 3.48940764, 3.41419504, 4.7808479 ,
+       4.47598146, 3.89357744, 2.67721355])
+          jac: array([ 1.98434130e-05, -8.64941014e-07, -8.28665979e-06,  1.00069485e-06,
+        1.10103300e-05, -1.67583234e-06,  3.60917004e-07, -1.42358231e-06])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 24
+          nit: 22
+         njev: 24
+     opt_time: 0.010505437850952148
+ staging_time: 1.3140621185302734
+       status: 0
+      success: True
+            x: array([3.21588553, 3.14159101, 3.13639235, 3.14155637, 3.14160296,
+       6.28317215, 6.28318573, 3.14154415])
+[3.21588553 3.14159101 3.13639235 3.14155637 3.14160296 6.28317215
+ 6.28318573 3.14154415]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867558138273
+          fun: -2.1213867558138273
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([0.52816237, 2.17083198, 1.04788669, 5.52014954, 5.97508323,
+       0.24346323, 4.39262129, 3.59875606])
+          jac: array([-2.36216141e-06,  2.94226514e-06,  1.48171636e-06, -1.88029605e-06,
+       -4.84278731e-06,  2.94231293e-06,  2.93366042e-06, -1.54612929e-07])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 18
+          nit: 16
+         njev: 18
+     opt_time: 0.012846946716308594
+ staging_time: 1.5324442386627197
+       status: 0
+      success: True
+            x: array([ 1.11412326e-05,  1.02162356e+00,  1.57079922e+00,  4.71238552e+00,
+        6.28317124e+00, -1.02160687e+00,  4.71239325e+00,  4.71239766e+00])
+[ 1.11412326e-05  1.02162356e+00  1.57079922e+00  4.71238552e+00
+  6.28317124e+00 -1.02160687e+00  4.71239325e+00  4.71239766e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.121386755443051
+          fun: -2.121386755443051
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([1.06255472, 0.55505542, 4.30624274, 5.99034706, 0.02480769,
+       3.2181989 , 5.10584809, 3.84861478])
+          jac: array([ 8.13629114e-06, -3.47027989e-06,  5.72326795e-06,  4.93598473e-06,
+        9.99010369e-06,  3.47665245e-06,  3.43001207e-06, -1.53807113e-07])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 26
+          nit: 23
+         njev: 26
+     opt_time: 0.013119697570800781
+ staging_time: 1.2472343444824219
+       status: 0
+      success: True
+            x: array([-3.23549588e-04,  1.66664341e+00,  4.71239424e+00,  7.85399467e+00,
+        3.31477675e-04,  1.66666322e+00,  4.71239272e+00,  1.57080675e+00])
+[-3.23549588e-04  1.66664341e+00  4.71239424e+00  7.85399467e+00
+  3.31477675e-04  1.66666322e+00  4.71239272e+00  1.57080675e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867556207515
+          fun: -2.1213867556207515
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([5.91754572, 5.3457032 , 4.58650203, 0.68320889, 5.61656555,
+       5.38565897, 1.03726981, 3.97307178])
+          jac: array([-8.51356209e-06,  1.23623718e-06,  2.68689448e-06, -5.28509272e-06,
+       -3.27185754e-06, -1.23616213e-06,  6.24697056e-06, -1.67958830e-06])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 14
+          nit: 13
+         njev: 14
+     opt_time: 0.0068738460540771484
+ staging_time: 1.4034185409545898
+       status: 0
+      success: True
+            x: array([ 6.28315995,  5.6107561 ,  4.71240411, -1.57080243,  6.28316643,
+        5.61074341,  1.57081405,  4.71237514])
+[ 6.28315995  5.6107561   4.71240411 -1.57080243  6.28316643  5.61074341
+  1.57081405  4.71237514]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1251570352013696
+          fun: -2.1251570352013696
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([6.01269001, 0.86211159, 1.78334614, 3.80813296, 5.9327415 ,
+       5.35789542, 0.01419518, 3.27495972])
+          jac: array([ 1.25843485e-06, -1.87254926e-07,  3.85920906e-07,  3.60814656e-07,
+        3.72662733e-07,  6.13579465e-07, -1.66449289e-06, -2.93101222e-07])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 30
+          nit: 28
+         njev: 30
+     opt_time: 0.023352384567260742
+ staging_time: 1.657181739807129
+       status: 0
+      success: True
+            x: array([ 6.35746417e+00, -3.31753590e-07,  3.13640665e+00,  3.14159951e+00,
+        6.28318567e+00,  6.28318779e+00, -1.58621976e-06,  3.14159961e+00])
+[ 6.35746417e+00 -3.31753590e-07  3.13640665e+00  3.14159951e+00
+  6.28318567e+00  6.28318779e+00 -1.58621976e-06  3.14159961e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867558527792
+          fun: -2.1213867558527792
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([4.03137554, 4.53657433, 0.22014097, 1.87521333, 0.36764483,
+       5.38507272, 2.34271095, 4.27161066])
+          jac: array([-6.05520182e-07, -5.99911232e-07, -3.73143177e-06,  1.53708478e-06,
+        1.68757140e-06, -5.99862408e-07, -1.19332364e-07,  6.40011626e-07])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 29
+          nit: 24
+         njev: 29
+     opt_time: 0.011155366897583008
+ staging_time: 1.3207638263702393
+       status: 0
+      success: True
+            x: array([6.28320011e+00, 4.39754360e+00, 1.57079310e+00, 1.57079822e+00,
+       1.56659859e-05, 8.16882560e+00, 1.57079522e+00, 7.85398342e+00])
+[6.28320011e+00 4.39754360e+00 1.57079310e+00 1.57079822e+00
+ 1.56659859e-05 8.16882560e+00 1.57079522e+00 7.85398342e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867548873226
+          fun: -2.1213867548873226
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([3.38789312, 1.3901858 , 5.06727182, 2.15044923, 3.3859385 ,
+       0.03690608, 4.22954176, 1.31962136])
+          jac: array([-5.85726386e-06, -7.18341303e-06, -6.50146624e-06,  3.26419651e-07,
+        1.14611244e-05, -7.18301967e-06,  1.93888539e-05,  5.91894791e-06])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 14
+          nit: 12
+         njev: 14
+     opt_time: 0.005927085876464844
+ staging_time: 1.3676178455352783
+       status: 0
+      success: True
+            x: array([3.14155261, 2.3982952 , 4.71235449, 1.57078983, 3.14163055,
+       0.74327475, 4.71243264, 1.57080753])
+[3.14155261 2.3982952  4.71235449 1.57078983 3.14163055 0.74327475
+ 4.71243264 1.57080753]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867557747754
+          fun: -2.1213867557747754
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([0.70209114, 1.57016181, 5.76563869, 1.65968363, 4.50990509,
+       5.43944798, 5.07102994, 1.32292833])
+          jac: array([ 2.26452234e-06, -9.05330654e-07,  7.28089983e-06,  7.69358475e-07,
+        2.26451221e-06,  5.73339518e-06, -2.97337394e-06, -3.77223022e-06])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 18
+          nit: 15
+         njev: 18
+     opt_time: 0.008938789367675781
+ staging_time: 1.3055157661437988
+       status: 0
+      success: True
+            x: array([1.2125116 , 1.57079808, 4.71239452, 1.57079792, 5.07067584,
+       7.85400347, 4.71238618, 1.57079295])
+[1.2125116  1.57079808 4.71239452 1.57079792 5.07067584 7.85400347
+ 4.71238618 1.57079295]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1251570351378883
+          fun: -2.1251570351378883
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([0.44186417, 5.91254561, 3.54171457, 0.49004032, 4.54048424,
+       0.99558437, 1.57256383, 1.84403482])
+          jac: array([ 7.28049886e-06,  1.33730385e-06,  2.50291024e-06, -2.95345706e-07,
+        7.33516712e-06,  5.33050622e-07, -1.95255143e-06, -2.30956424e-07])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 29
+          nit: 25
+         njev: 29
+     opt_time: 0.013679265975952148
+ staging_time: 1.32718825340271
+       status: 0
+      success: True
+            x: array([-7.42727592e-02,  6.28318709e+00,  3.14678270e+00, -5.37892260e-05,
+        6.28319223e+00,  3.44148198e-06, -1.91302325e-06, -5.13802715e-05])
+[-7.42727592e-02  6.28318709e+00  3.14678270e+00 -5.37892260e-05
+  6.28319223e+00  3.44148198e-06 -1.91302325e-06 -5.13802715e-05]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1251570352031215
+          fun: -2.1251570352031215
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([0.24543954, 2.24820918, 5.9419027 , 0.37727185, 5.42893665,
+       5.51217894, 0.32165929, 4.09926706])
+          jac: array([ 1.40354312e-07,  3.88749578e-07,  4.22177180e-07,  1.23558080e-07,
+       -1.47357050e-06,  9.45547593e-08, -1.46246914e-07, -1.03697069e-07])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 36
+          nit: 31
+         njev: 36
+     opt_time: 0.01846456527709961
+ staging_time: 1.6333041191101074
+       status: 0
+      success: True
+            x: array([-7.42778778e-02,  3.14159311e+00,  6.28837249e+00, -3.14159040e+00,
+        6.28318392e+00,  3.14159274e+00, -1.08693363e-07,  9.42477970e+00])
+[-7.42778778e-02  3.14159311e+00  6.28837249e+00 -3.14159040e+00
+  6.28318392e+00  3.14159274e+00 -1.08693363e-07  9.42477970e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867557625607
+          fun: -2.1213867557625607
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([1.61458022, 0.17785137, 3.99434101, 5.32382074, 4.62552159,
+       0.13073494, 0.70122315, 1.87065344])
+          jac: array([ 1.94660285e-06,  3.06359351e-06, -8.15332550e-06, -4.08224949e-08,
+        1.94658548e-06, -6.96939347e-07,  1.19208326e-05,  1.35385945e-06])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 19
+          nit: 17
+         njev: 19
+     opt_time: 0.0072536468505859375
+ staging_time: 1.496612548828125
+       status: 0
+      success: True
+            x: array([0.77596611, 1.57080449, 4.71238288, 4.71238909, 5.50722104,
+       1.57080249, 1.57080756, 4.71239462])
+[0.77596611 1.57080449 4.71238288 4.71238909 5.50722104 1.57080249
+ 1.57080756 4.71239462]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1251570351105165
+          fun: -2.1251570351105165
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([6.17474956, 3.99397419, 1.35668583, 3.44964109, 3.42785431,
+       1.47074334, 0.71456055, 3.13945177])
+          jac: array([ 1.66431465e-06,  5.65092830e-06,  5.69483098e-06, -1.95885350e-06,
+        1.84337595e-06, -4.61739868e-06, -2.92973589e-06,  1.80215661e-06])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 31
+          nit: 26
+         njev: 31
+     opt_time: 0.023641109466552734
+ staging_time: 1.6487412452697754
+       status: 0
+      success: True
+            x: array([ 6.20890828e+00,  3.14159902e+00,  5.19524835e-03,  3.14157975e+00,
+        6.28318698e+00,  3.14157145e+00, -2.41316318e-06,  3.14157454e+00])
+[ 6.20890828e+00  3.14159902e+00  5.19524835e-03  3.14157975e+00
+  6.28318698e+00  3.14157145e+00 -2.41316318e-06  3.14157454e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.121386755663746
+          fun: -2.121386755663746
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([4.13403098, 1.21799684, 1.71101442, 4.51513424, 4.91975677,
+       5.34276613, 4.87100733, 0.23036863])
+          jac: array([-8.11885232e-06, -3.96317031e-07, -1.77330640e-05,  3.18064748e-06,
+       -8.11878741e-06, -4.09084251e-07,  9.89654588e-06, -1.00923172e-07])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 26
+          nit: 22
+         njev: 26
+     opt_time: 0.010256767272949219
+ staging_time: 1.2522592544555664
+       status: 0
+      success: True
+            x: array([ 2.8991975 ,  1.5707767 ,  1.57078319,  4.71239181,  3.38398015,
+        4.71236721,  4.71239831, -1.57079825])
+[ 2.8991975   1.5707767   1.57078319  4.71239181  3.38398015  4.71236721
+  4.71239831 -1.57079825]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867558123485
+          fun: -2.1213867558123485
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([1.93593983, 3.66681213, 0.4371272 , 5.45006311, 0.83717487,
+       1.11919026, 3.11601726, 5.42678492])
+          jac: array([-1.02703359e-06, -5.18484280e-07, -1.08409776e-06,  4.49757472e-06,
+        1.02700560e-06,  1.83595440e-06, -4.19924763e-06,  1.73755218e-06])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 21
+          nit: 19
+         njev: 21
+     opt_time: 0.010588645935058594
+ staging_time: 1.6177878379821777
+       status: 0
+      success: True
+            x: array([2.721741  , 4.71239735, 1.57079517, 4.71239555, 2.72174197,
+       1.57082036, 4.71238502, 4.71240511])
+[2.721741   4.71239735 1.57079517 4.71239555 2.72174197 1.57082036
+ 4.71238502 4.71240511]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.121386755822182
+          fun: -2.121386755822182
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([1.38484242, 5.10163809, 0.0661423 , 3.52614682, 5.11279242,
+       4.68160323, 1.18822169, 0.0385842 ])
+          jac: array([ 9.75524765e-07, -3.98654514e-06, -3.00146782e-06,  3.41804409e-06,
+        9.75543118e-07,  1.75579755e-06, -4.46596907e-06, -1.36314008e-07])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 20
+          nit: 17
+         njev: 20
+     opt_time: 0.008041620254516602
+ staging_time: 1.3915562629699707
+       status: 0
+      success: True
+            x: array([-1.41405285,  7.85397401,  1.5707944 ,  4.71239527,  7.69723908,
+        4.71239999,  4.71238477, -1.57079141])
+[-1.41405285  7.85397401  1.5707944   4.71239527  7.69723908  4.71239999
+  4.71238477 -1.57079141]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867557804664
+          fun: -2.1213867557804664
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([3.88333743, 2.58823312, 0.01548731, 5.55453802, 5.56028937,
+       1.88752975, 3.70445211, 6.14763762])
+          jac: array([-1.76837598e-06, -1.40749840e-06,  2.83729404e-06,  7.49629014e-06,
+        2.15809724e-06,  1.40774296e-06,  2.25391083e-06,  1.83710290e-06])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 29
+          nit: 23
+         njev: 29
+     opt_time: 0.017105579376220703
+ staging_time: 1.790245532989502
+       status: 0
+      success: True
+            x: array([3.14165859, 4.82165685, 1.57079764, 4.71240155, 3.14166023,
+       1.6800784 , 4.71239096, 4.7124043 ])
+[3.14165859 4.82165685 1.57079764 4.71240155 3.14166023 1.6800784
+ 4.71239096 4.7124043 ]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.121386755856818
+          fun: -2.121386755856818
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([0.8579349 , 2.41261756, 2.01388205, 2.30225179, 4.45887227,
+       5.65576169, 3.35594628, 1.55379255])
+          jac: array([-8.37650616e-07,  1.11220759e-06, -8.50607173e-07,  3.26595450e-06,
+       -8.37652947e-07,  4.34095107e-07, -2.41946500e-06, -8.36199133e-07])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 21
+          nit: 18
+         njev: 21
+     opt_time: 0.017032623291015625
+ staging_time: 1.4595282077789307
+       status: 0
+      success: True
+            x: array([0.56623792, 1.57079881, 1.57079593, 1.57080102, 5.7169466 ,
+       4.7123867 , 1.57079405, 1.57079285])
+[0.56623792 1.57079881 1.57079593 1.57080102 5.7169466  4.7123867
+ 1.57079405 1.57079285]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.12138675527264
+          fun: -2.12138675527264
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([3.49489192, 2.30643368, 2.52813844, 0.71025567, 2.80877765,
+       3.67846015, 1.01778242, 3.27177264])
+          jac: array([ 2.19915297e-05,  2.85881365e-06,  2.42867660e-05, -6.10123431e-06,
+        2.19915799e-05, -1.84348516e-06, -1.53004334e-05,  1.01449245e-06])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 24
+          nit: 20
+         njev: 24
+     opt_time: 0.015275716781616211
+ staging_time: 1.213167428970337
+       status: 0
+      success: True
+            x: array([2.80412604, 1.57081581, 1.57081408, 1.57078776, 3.47907999,
+       4.7123999 , 1.57078191, 1.57079625])
+[2.80412604 1.57081581 1.57081408 1.57078776 3.47907999 4.7123999
+ 1.57078191 1.57079625]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.121386755764646
+          fun: -2.121386755764646
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([4.6440389 , 1.22491949, 1.12937269, 3.38554523, 1.77666869,
+       4.78112621, 1.69453073, 1.84423747])
+          jac: array([ 3.04004505e-06,  5.29581601e-06,  3.60237253e-06, -6.03249058e-06,
+        3.04003119e-06,  1.05036908e-06, -1.00655861e-05, -1.65567820e-06])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 16
+          nit: 13
+         njev: 16
+     opt_time: 0.00721287727355957
+ staging_time: 1.4910941123962402
+       status: 0
+      success: True
+            x: array([4.56032388, 1.57080372, 1.57079861, 1.57078837, 1.72286429,
+       4.71239085, 1.57078684, 1.57079007])
+[4.56032388 1.57080372 1.57079861 1.57078837 1.72286429 4.71239085
+ 1.57078684 1.57079007]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867556871264
+          fun: -2.1213867556871264
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([4.66104057, 4.16665236, 5.57193791, 5.39105287, 4.70775333,
+       5.46728052, 1.17342157, 2.04559601])
+          jac: array([ 2.03910100e-06, -6.19598267e-06,  1.87882925e-06,  1.24950169e-05,
+       -2.03915845e-06, -1.86307144e-06,  1.47389959e-06, -1.84983733e-06])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 21
+          nit: 18
+         njev: 21
+     opt_time: 0.010849714279174805
+ staging_time: 1.1177141666412354
+       status: 0
+      success: True
+            x: array([5.19787392, 4.71237829, 4.71238948, 4.71240657, 5.197872  ,
+       4.71236708, 1.57079772, 4.71237211])
+[5.19787392 4.71237829 4.71238948 4.71240657 5.197872   4.71236708
+ 1.57079772 4.71237211]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1251570346744546
+          fun: -2.1251570346744546
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([6.00277864, 6.1839956 , 1.21077593, 6.09968552, 1.4753444 ,
+       0.16558611, 5.94427245, 5.79136805])
+          jac: array([ 8.85504575e-06,  9.54918486e-06, -5.61681292e-07, -6.15511039e-06,
+       -2.60130418e-05, -4.47002087e-06,  6.05793097e-06,  6.81304051e-06])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 27
+          nit: 25
+         njev: 27
+     opt_time: 0.013040542602539062
+ staging_time: 1.7384328842163086
+       status: 0
+      success: True
+            x: array([ 6.20891385e+00,  6.28319667e+00,  3.14677789e+00,  6.28323778e+00,
+       -2.43747254e-05, -3.62772827e-06,  6.28319032e+00,  6.28326391e+00])
+[ 6.20891385e+00  6.28319667e+00  3.14677789e+00  6.28323778e+00
+ -2.43747254e-05 -3.62772827e-06  6.28319032e+00  6.28326391e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867558656805
+          fun: -2.1213867558656805
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([4.82674281, 4.60647787, 1.52044555, 4.52583299, 0.36679543,
+       2.57402578, 3.83696706, 1.60796058])
+          jac: array([ 1.44870703e-06,  1.25727121e-07,  2.80382922e-06, -5.60803493e-09,
+       -1.44870642e-06,  2.95150409e-07, -8.01229027e-07, -2.23722329e-07])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 25
+          nit: 21
+         njev: 25
+     opt_time: 0.01474761962890625
+ staging_time: 1.6982877254486084
+       status: 0
+      success: True
+            x: array([ 6.67791953,  4.71238768,  1.57079843,  4.7123889 ,  0.39473286,
+        1.57079852,  4.71238823, -1.57079667])
+[ 6.67791953  4.71238768  1.57079843  4.7123889   0.39473286  1.57079852
+  4.71238823 -1.57079667]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.12138675549135
+          fun: -2.12138675549135
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([3.68002562, 2.55530927, 0.85598549, 3.41890913, 3.25579801,
+       4.81829274, 5.8675535 , 0.56362298])
+          jac: array([ 1.47986823e-05,  2.72863024e-06, -9.62229205e-06,  1.88004418e-06,
+        1.61515719e-05, -2.72904359e-06, -1.23395767e-05, -1.15514321e-06])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 21
+          nit: 17
+         njev: 21
+     opt_time: 0.022593975067138672
+ staging_time: 1.4851007461547852
+       status: 0
+      success: True
+            x: array([ 3.14159914,  2.15107742,  1.57077882,  4.71238983,  3.14160245,
+        5.29265037,  4.71236776, -1.57081196])
+[ 3.14159914  2.15107742  1.57077882  4.71238983  3.14160245  5.29265037
+  4.71236776 -1.57081196]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867542715428
+          fun: -2.1213867542715428
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([0.47332945, 3.41512917, 0.56171499, 2.40264776, 4.20068913,
+       2.6965485 , 0.27618563, 1.22073487])
+          jac: array([-3.53133845e-05,  2.17775779e-05,  3.85086333e-05, -7.61151434e-06,
+       -4.95316741e-06,  2.95451192e-06, -3.84976238e-05,  5.71499248e-06])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 26
+          nit: 23
+         njev: 26
+     opt_time: 0.01314234733581543
+ staging_time: 1.396568775177002
+       status: 0
+      success: True
+            x: array([-4.59683320e-05,  3.14161114e+00,  1.03131987e-01,  1.57121139e+00,
+        6.28318064e+00,  3.14163417e+00,  1.03093023e-01,  1.57126575e+00])
+[-4.59683320e-05  3.14161114e+00  1.03131987e-01  1.57121139e+00
+  6.28318064e+00  3.14163417e+00  1.03093023e-01  1.57126575e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867556620714
+          fun: -2.1213867556620714
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([3.82714578, 3.74825578, 0.57669673, 2.16886913, 4.16419692,
+       2.7753677 , 3.46509996, 4.42155599])
+          jac: array([ 2.13967439e-06, -1.12301311e-05,  5.83904796e-06,  2.12113413e-06,
+       -7.88952501e-06, -4.55139387e-06,  5.83899181e-06, -1.90864197e-06])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 31
+          nit: 25
+         njev: 31
+     opt_time: 0.047925472259521484
+ staging_time: 1.776172161102295
+       status: 0
+      success: True
+            x: array([ 3.14159385e+00,  3.14158274e+00,  2.90736508e+00,  1.57081142e+00,
+        3.14158522e+00, -3.49188207e-05,  2.34233010e-01,  1.57078538e+00])
+[ 3.14159385e+00  3.14158274e+00  2.90736508e+00  1.57081142e+00
+  3.14158522e+00 -3.49188207e-05  2.34233010e-01  1.57078538e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867558262787
+          fun: -2.1213867558262787
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([4.2753985 , 3.05732337, 6.06344234, 2.47179718, 0.49987496,
+       2.20795797, 1.02815005, 6.17741932])
+          jac: array([ 1.54207752e-06, -2.17146825e-06, -4.52730833e-06,  8.57863767e-07,
+       -5.26915861e-07, -2.17151863e-06,  4.34403635e-06,  3.10027843e-06])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 19
+          nit: 17
+         njev: 19
+     opt_time: 0.010553359985351562
+ staging_time: 1.3620741367340088
+       status: 0
+      success: True
+            x: array([ 6.28319735e+00,  2.09561106e+00,  7.85397929e+00,  1.57079641e+00,
+       -1.09208573e-05,  4.18757165e+00,  1.57079924e+00,  7.85399268e+00])
+[ 6.28319735e+00  2.09561106e+00  7.85397929e+00  1.57079641e+00
+ -1.09208573e-05  4.18757165e+00  1.57079924e+00  7.85399268e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.121386755854014
+          fun: -2.121386755854014
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([1.19358722, 2.60642004, 0.08432418, 4.07447467, 5.46240493,
+       3.82668418, 5.07676861, 5.19312385])
+          jac: array([ 1.05293619e-07, -3.40226143e-07,  5.23379556e-06, -5.62326176e-07,
+        9.53946429e-07, -3.40206640e-07,  1.26368344e-06, -2.55544239e-08])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 15
+          nit: 14
+         njev: 15
+     opt_time: 0.008514404296875
+ staging_time: 1.3556773662567139
+       status: 0
+      success: True
+            x: array([-1.98726186e-06,  2.35300676e+00,  1.57080276e+00,  4.71238846e+00,
+        6.28318762e+00,  3.93017647e+00,  4.71238564e+00,  4.71238772e+00])
+[-1.98726186e-06  2.35300676e+00  1.57080276e+00  4.71238846e+00
+  6.28318762e+00  3.93017647e+00  4.71238564e+00  4.71238772e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.121386755666993
+          fun: -2.121386755666993
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([4.28622989, 4.26609925, 5.00592318, 0.28778347, 5.73402407,
+       1.34344546, 1.90780943, 6.21447003])
+          jac: array([-4.42900019e-06, -7.48975473e-06, -1.42206525e-06, -7.69552510e-06,
+        4.42888874e-06, -1.25201846e-06, -1.09433020e-05,  1.15064665e-06])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 21
+          nit: 17
+         njev: 21
+     opt_time: 0.010491609573364258
+ staging_time: 1.4680767059326172
+       status: 0
+      success: True
+            x: array([ 5.23916258,  4.71236978,  4.71238866, -1.57081077,  5.23916675,
+       -1.57080955,  1.57078602,  4.71239163])
+[ 5.23916258  4.71236978  4.71238866 -1.57081077  5.23916675 -1.57080955
+  1.57078602  4.71239163]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1251570351405924
+          fun: -2.1251570351405924
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([3.9569135 , 0.2045863 , 5.95163464, 5.6819991 , 3.45656971,
+       1.23783958, 1.45790528, 0.01486586])
+          jac: array([ 2.42035727e-06,  7.31596754e-07, -5.16917411e-06,  1.79117116e-06,
+        3.22159378e-06,  2.45017863e-06, -6.45805017e-06, -1.52411733e-06])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 31
+          nit: 26
+         njev: 31
+     opt_time: 0.02404308319091797
+ staging_time: 1.6445679664611816
+       status: 0
+      success: True
+            x: array([ 3.21587264e+00,  4.41895876e-07,  6.27799067e+00,  6.28321357e+00,
+        3.14159570e+00,  3.14160122e+00, -6.05688896e-06,  2.62004541e-05])
+[ 3.21587264e+00  4.41895876e-07  6.27799067e+00  6.28321357e+00
+  3.14159570e+00  3.14160122e+00 -6.05688896e-06  2.62004541e-05]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867557978205
+          fun: -2.1213867557978205
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([1.77172675, 4.7339063 , 4.98071636, 3.94207421, 2.78652259,
+       6.05363135, 5.63643539, 1.23655781])
+          jac: array([-8.30441407e-06, -9.00285018e-07, -2.80826711e-06,  3.11414294e-06,
+        8.30437065e-06,  4.85537710e-07,  4.99789987e-06, -2.05840708e-06])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 21
+          nit: 19
+         njev: 21
+     opt_time: 0.019101619720458984
+ staging_time: 2.1528563499450684
+       status: 0
+      success: True
+            x: array([2.74937426, 4.71237638, 4.71238665, 1.57080068, 2.74938208,
+       4.71239676, 4.71239369, 1.57078588])
+[2.74937426 4.71237638 4.71238665 1.57080068 2.74938208 4.71239676
+ 4.71239369 1.57078588]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.125157035097829
+          fun: -2.125157035097829
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([1.62723921, 0.46877137, 1.76530474, 2.75476302, 3.03634329,
+       5.45688038, 3.32775956, 3.53280353])
+          jac: array([ 6.04808657e-06, -4.92181397e-06, -6.97607643e-06, -3.90352575e-06,
+        4.56412636e-06,  2.06846209e-06, -2.48853244e-06, -3.53289668e-06])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 27
+          nit: 25
+         njev: 27
+     opt_time: 0.025516748428344727
+ staging_time: 1.7530608177185059
+       status: 0
+      success: True
+            x: array([ 3.21587469e+00, -4.84510046e-06,  3.14676873e+00, -4.39386518e-05,
+        3.14159695e+00,  3.14159386e+00,  3.14159000e+00,  3.14162338e+00])
+[ 3.21587469e+00 -4.84510046e-06  3.14676873e+00 -4.39386518e-05
+  3.14159695e+00  3.14159386e+00  3.14159000e+00  3.14162338e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.121386755805452
+          fun: -2.121386755805452
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([3.97545204, 5.81611769, 5.12395594, 5.93410254, 5.77792385,
+       2.60645876, 5.18872959, 5.94552768])
+          jac: array([ 8.24960404e-07,  7.92779349e-06, -1.92555454e-06,  5.23930100e-06,
+       -8.24972053e-07, -4.08904225e-07,  4.20860746e-07,  6.20294418e-07])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 21
+          nit: 19
+         njev: 21
+     opt_time: 0.010970115661621094
+ staging_time: 1.3124208450317383
+       status: 0
+      success: True
+            x: array([4.89072894, 4.71240047, 4.7123872 , 7.85398818, 4.89072817,
+       4.71239065, 4.71238938, 7.85398393])
+[4.89072894 4.71240047 4.7123872  7.85398818 4.89072817 4.71239065
+ 4.71238938 7.85398393]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.121386755051026
+          fun: -2.121386755051026
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([4.88062414, 4.31178342, 6.16342065, 3.77503884, 5.11431505,
+       4.45254881, 0.1730055 , 5.68167849])
+          jac: array([-3.18002082e-07,  5.94090663e-07, -1.68528267e-05, -2.87898437e-05,
+        7.02479792e-07, -5.94106047e-07, -1.28961959e-05,  5.06305854e-06])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 20
+          nit: 15
+         njev: 20
+     opt_time: 0.008268356323242188
+ staging_time: 1.255242109298706
+       status: 0
+      success: True
+            x: array([6.28317532, 4.02608642, 4.7123811 , 4.71234436, 6.28317824,
+       4.02609943, 1.57078917, 4.71241663])
+[6.28317532 4.02608642 4.7123811  4.71234436 6.28317824 4.02609943
+ 1.57078917 4.71241663]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.121387221516637
+          fun: -2.121387221516637
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([5.76449484, 2.63127289, 2.08765021, 1.77835278, 1.17044601,
+       1.99246385, 3.02327191, 0.43680998])
+          jac: array([ 1.01116808e-05, -1.95862084e-05, -2.70614671e-05, -1.60769566e-05,
+       -1.27222474e-07, -3.34933834e-06, -1.05037462e-05,  1.84159872e-05])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 25
+          nit: 23
+         njev: 25
+     opt_time: 0.02532029151916504
+ staging_time: 1.3479938507080078
+       status: 0
+      success: True
+            x: array([ 6.28168046e+00,  3.14146394e+00,  3.05851246e+00,  1.59739599e+00,
+       -6.30117439e-08,  3.14139649e+00,  3.05861958e+00,  1.54394152e+00])
+[ 6.28168046e+00  3.14146394e+00  3.05851246e+00  1.59739599e+00
+ -6.30117439e-08  3.14139649e+00  3.05861958e+00  1.54394152e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.121386755844753
+          fun: -2.121386755844753
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([3.77691701, 4.44895122, 0.12933619, 6.09412333, 5.23039137,
+       1.33416598, 1.14243996, 1.15236452])
+          jac: array([ 2.31159220e-06, -4.43036229e-06,  2.51280175e-06,  2.23395304e-07,
+       -2.31159133e-06,  3.77087128e-07, -2.94550232e-06, -7.18979300e-07])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 19
+          nit: 18
+         njev: 19
+     opt_time: 0.008383512496948242
+ staging_time: 1.4469842910766602
+       status: 0
+      success: True
+            x: array([4.59966049, 4.7123819 , 1.57079815, 7.85398281, 4.59965831,
+       1.57079539, 1.57079355, 1.57079335])
+[4.59966049 4.7123819  1.57079815 7.85398281 4.59965831 1.57079539
+ 1.57079355 1.57079335]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867557128725
+          fun: -2.1213867557128725
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([0.18229924, 4.61027651, 2.48154415, 5.03941067, 1.59857508,
+       0.3574186 , 5.44531401, 1.38876614])
+          jac: array([-5.82956841e-06, -7.37578897e-08, -4.25672988e-07,  1.35179992e-07,
+        1.43940830e-05, -1.28579349e-06, -4.26059433e-07, -5.50139083e-07])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 32
+          nit: 27
+         njev: 32
+     opt_time: 0.014890193939208984
+ staging_time: 1.57908296585083
+       status: 0
+      success: True
+            x: array([-8.88558757e-06,  3.14163656e+00,  1.71530392e+00,  4.71238730e+00,
+        1.35625855e-05,  3.14154011e+00,  4.56788092e+00, -1.57080311e+00])
+[-8.88558757e-06  3.14163656e+00  1.71530392e+00  4.71238730e+00
+  1.35625855e-05  3.14154011e+00  4.56788092e+00 -1.57080311e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1251570347935425
+          fun: -2.1251570347935425
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([3.20381133, 4.46199144, 6.03516427, 2.86903504, 2.68701375,
+       0.71291346, 1.36909897, 6.01597444])
+          jac: array([ 1.74702276e-05, -1.56496274e-05,  5.26323027e-06, -4.36097263e-07,
+       -9.32016543e-06,  4.43602957e-06, -1.19289959e-05, -2.54536489e-07])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 24
+          nit: 20
+         njev: 24
+     opt_time: 0.015606164932250977
+ staging_time: 1.42228102684021
+       status: 0
+      success: True
+            x: array([3.21588365e+00, 3.14157669e+00, 6.28838083e+00, 3.14157690e+00,
+       3.14158386e+00, 2.06777621e-05, 3.14158242e+00, 6.28320754e+00])
+[3.21588365e+00 3.14157669e+00 6.28838083e+00 3.14157690e+00
+ 3.14158386e+00 2.06777621e-05 3.14158242e+00 6.28320754e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.121386755271142
+          fun: -2.121386755271142
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([0.72853981, 3.9420182 , 5.37955047, 4.08471398, 6.22488793,
+       2.95530091, 3.88485881, 1.77605044])
+          jac: array([-8.13956702e-06,  4.06598176e-06, -2.56543237e-06,  1.00332083e-05,
+       -1.93330523e-05, -4.06543615e-06,  4.93542218e-06, -3.67260438e-06])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 22
+          nit: 21
+         njev: 22
+     opt_time: 0.011211156845092773
+ staging_time: 1.3493402004241943
+       status: 0
+      success: True
+            x: array([-2.03131003e-05,  3.30004755e+00,  4.71245268e+00,  1.57081387e+00,
+        6.28316389e+00,  3.30001184e+00,  4.71245653e+00,  1.57076163e+00])
+[-2.03131003e-05  3.30004755e+00  4.71245268e+00  1.57081387e+00
+  6.28316389e+00  3.30001184e+00  4.71245653e+00  1.57076163e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.121386755865128
+          fun: -2.121386755865128
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([5.73480328, 2.85887394, 3.19144559, 0.53349241, 2.67883474,
+       4.68547784, 5.44803309, 2.03365237])
+          jac: array([ 1.72563206e-06,  6.21282100e-07,  1.98279030e-06, -1.15396902e-06,
+        1.72563213e-06,  4.54123000e-07, -4.99781984e-07, -7.64880544e-07])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 18
+          nit: 17
+         njev: 18
+     opt_time: 0.007655143737792969
+ staging_time: 1.3097426891326904
+       status: 0
+      success: True
+            x: array([4.16179873, 1.57079678, 4.71239039, 1.57079484, 2.1213882 ,
+       7.85398156, 4.71238851, 1.57079334])
+[4.16179873 1.57079678 4.71239039 1.57079484 2.1213882  7.85398156
+ 4.71238851 1.57079334]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.121386755862148
+          fun: -2.121386755862148
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([4.43612368, 1.54974377, 1.60844788, 0.15086779, 0.62031347,
+       1.8876978 , 4.02661498, 2.02449225])
+          jac: array([-1.55365821e-06, -1.95568560e-06,  6.57670389e-07,  7.81868671e-07,
+       -1.55365309e-06, -4.56160047e-07,  4.89663452e-07, -4.63678000e-07])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 18
+          nit: 15
+         njev: 18
+     opt_time: 0.012494564056396484
+ staging_time: 1.7612929344177246
+       status: 0
+      success: True
+            x: array([ 5.42350954,  1.5707916 ,  1.57079692, -1.57079443,  0.8596743 ,
+        4.71238789,  4.71238944,  4.71238479])
+[ 5.42350954  1.5707916   1.57079692 -1.57079443  0.8596743   4.71238789
+  4.71238944  4.71238479]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867555400188
+          fun: -2.1213867555400188
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([3.44463009, 2.24417783, 0.70567727, 0.89156612, 2.79576033,
+       4.5991674 , 2.89090128, 3.72432296])
+          jac: array([-6.72040553e-06, -1.26773534e-05,  9.99440844e-06, -1.24771426e-06,
+       -1.43513159e-06,  5.66321522e-06,  9.99270521e-06, -4.77918467e-06])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 22
+          nit: 18
+         njev: 22
+     opt_time: 0.008533239364624023
+ staging_time: 1.3197662830352783
+       status: 0
+      success: True
+            x: array([3.14159533, 3.14158491, 0.23345049, 1.57089797, 3.1415913 ,
+       6.28320062, 2.90815173, 1.57068718])
+[3.14159533 3.14158491 0.23345049 1.57089797 3.1415913  6.28320062
+ 2.90815173 1.57068718]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867558685573
+          fun: -2.1213867558685573
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([4.83650996, 5.6311798 , 4.53426355, 3.13392937, 2.77850486,
+       5.0418197 , 5.30823165, 1.4397178 ])
+          jac: array([-3.65355353e-07,  4.33481382e-07, -7.26277368e-07, -1.47931825e-07,
+       -8.30007073e-08,  4.33480113e-07,  5.74686495e-07, -7.01515064e-07])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 17
+          nit: 15
+         njev: 17
+     opt_time: 0.007285118103027344
+ staging_time: 1.8189144134521484
+       status: 0
+      success: True
+            x: array([3.14159083, 5.33721057, 4.71238853, 1.57079638, 3.14159109,
+       4.08756764, 4.71238926, 1.57079364])
+[3.14159083 5.33721057 4.71238853 1.57079638 3.14159109 4.08756764
+ 4.71238926 1.57079364]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867555624786
+          fun: -2.1213867555624786
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([4.77859294, 1.94784618, 2.1773826 , 2.21020353, 0.91399522,
+       6.11143246, 5.7125366 , 3.51831425])
+          jac: array([ 7.83858345e-06, -4.36849544e-06, -4.87010049e-06, -4.44527974e-06,
+        9.70512010e-06, -4.37172391e-06, -7.16268954e-06,  3.13729542e-06])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 27
+          nit: 24
+         njev: 27
+     opt_time: 0.013087272644042969
+ staging_time: 1.186204433441162
+       status: 0
+      success: True
+            x: array([6.28298687e+00, 1.68780207e+00, 1.57079180e+00, 1.57079256e+00,
+       2.06220530e-04, 4.59536791e+00, 7.85397436e+00, 1.57080043e+00])
+[6.28298687e+00 1.68780207e+00 1.57079180e+00 1.57079256e+00
+ 2.06220530e-04 4.59536791e+00 7.85397436e+00 1.57080043e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.12138675539225
+          fun: -2.12138675539225
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([3.7070396 , 3.06491135, 1.0954318 , 1.37088146, 4.0636221 ,
+       1.56973704, 2.57766412, 0.29986994])
+          jac: array([ 8.96215341e-06, -3.96698533e-06,  1.64938271e-05,  9.27205654e-07,
+        6.12100480e-06,  3.96682265e-06,  3.27716102e-06, -5.10230095e-06])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 15
+          nit: 13
+         njev: 15
+     opt_time: 0.007574319839477539
+ staging_time: 1.2488977909088135
+       status: 0
+      success: True
+            x: array([3.14162708, 3.83706813, 1.57082153, 1.57080008, 3.14162048,
+       0.69548204, 1.57078006, 1.57077943])
+[3.14162708 3.83706813 1.57082153 1.57080008 3.14162048 0.69548204
+ 1.57078006 1.57077943]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.125157033413
+          fun: -2.125157033413
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([6.16021944, 3.2743416 , 3.99958262, 4.80510962, 4.80635587,
+       2.6243959 , 4.8305462 , 2.65905502])
+          jac: array([-2.87472282e-05, -1.93593845e-06, -6.00905125e-06, -8.72848161e-06,
+        7.47962149e-06, -1.64471767e-05, -4.83299470e-06, -8.27728114e-06])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 28
+          nit: 24
+         njev: 28
+     opt_time: 0.014511346817016602
+ staging_time: 1.7007231712341309
+       status: 0
+      success: True
+            x: array([6.35744195, 3.14158482, 3.1467685 , 6.28308991, 6.28319202,
+       3.141474  , 3.14158834, 3.14158837])
+[6.35744195 3.14158482 3.1467685  6.28308991 6.28319202 3.141474
+ 3.14158834 3.14158837]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867558557085
+          fun: -2.1213867558557085
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([3.00574429, 2.18519775, 0.84495222, 1.63348587, 0.2992975 ,
+       2.4774179 , 2.3349334 , 3.49805612])
+          jac: array([ 2.45296569e-06, -8.27728064e-07, -7.82306487e-07, -2.38450364e-06,
+        1.62886278e-06, -9.20934600e-07,  7.82300396e-07,  1.95747758e-06])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 21
+          nit: 18
+         njev: 21
+     opt_time: 0.01642894744873047
+ staging_time: 1.5335218906402588
+       status: 0
+      success: True
+            x: array([2.55099701e-06, 3.14159223e+00, 9.80682351e-01, 1.57079275e+00,
+       1.53481513e-06, 3.14159377e+00, 9.80683172e-01, 1.57080236e+00])
+[2.55099701e-06 3.14159223e+00 9.80682351e-01 1.57079275e+00
+ 1.53481513e-06 3.14159377e+00 9.80683172e-01 1.57080236e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867558534067
+          fun: -2.1213867558534067
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([4.2190603 , 0.18634048, 2.46025679, 2.54339596, 1.1914868 ,
+       4.81986691, 3.87498581, 5.81995096])
+          jac: array([ 8.06342233e-07,  7.82160722e-07, -2.90965063e-06, -1.96238003e-06,
+       -4.24615952e-07, -7.82172764e-07, -4.15818630e-06, -3.08257599e-07])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 29
+          nit: 24
+         njev: 29
+     opt_time: 0.03147411346435547
+ staging_time: 1.5497839450836182
+       status: 0
+      success: True
+            x: array([3.14159753, 0.97991622, 1.57079552, 4.71238639, 3.1415882 ,
+       4.1215033 , 4.71238551, 4.71238463])
+[3.14159753 0.97991622 1.57079552 4.71238639 3.1415882  4.1215033
+ 4.71238551 4.71238463]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.121386753578009
+          fun: -2.121386753578009
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([0.68076889, 4.82020873, 0.32313611, 4.87397076, 0.05742167,
+       3.88496959, 5.14410245, 5.64598061])
+          jac: array([ 8.32815334e-06, -3.12648261e-06, -4.98194730e-06, -1.83078426e-06,
+        5.97412023e-07, -3.30368429e-06, -6.71424042e-06,  8.42189123e-06])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 27
+          nit: 24
+         njev: 27
+     opt_time: 0.014763593673706055
+ staging_time: 1.7341890335083008
+       status: 0
+      success: True
+            x: array([1.16615031e-05, 3.16496553e+00, 1.57318532e+00, 4.71238210e+00,
+       8.35520520e-07, 3.11822795e+00, 4.70999431e+00, 4.71242744e+00])
+[1.16615031e-05 3.16496553e+00 1.57318532e+00 4.71238210e+00
+ 8.35520520e-07 3.11822795e+00 4.70999431e+00 4.71242744e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.125157034636046
+          fun: -2.125157034636046
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([5.5122474 , 2.46086269, 2.04915671, 0.56608427, 5.24154471,
+       0.60451534, 4.06864575, 3.45263539])
+          jac: array([ 9.49412742e-06,  2.67531157e-05, -5.88988742e-06, -1.73933924e-06,
+       -1.46033765e-05, -1.56516876e-06, -3.94376168e-06, -1.67398886e-06])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 31
+          nit: 27
+         njev: 31
+     opt_time: 0.028572559356689453
+ staging_time: 1.5972676277160645
+       status: 0
+      success: True
+            x: array([ 6.35746992e+00,  3.14162175e+00,  3.14677057e+00, -9.87645331e-06,
+        6.28317171e+00,  3.14158369e+00,  3.14158723e+00,  3.14159671e+00])
+[ 6.35746992e+00  3.14162175e+00  3.14677057e+00 -9.87645331e-06
+  6.28317171e+00  3.14158369e+00  3.14158723e+00  3.14159671e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1251570350401243
+          fun: -2.1251570350401243
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([3.28039295, 2.66838876, 0.45115755, 5.64562327, 2.64216629,
+       3.65788066, 1.34556635, 2.81163545])
+          jac: array([ 7.47428700e-06, -5.09716047e-06,  5.70052808e-06, -1.52168130e-06,
+        3.69037987e-06, -1.26189833e-06, -9.76099321e-06, -6.50053850e-07])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 23
+          nit: 20
+         njev: 23
+     opt_time: 0.013005971908569336
+ staging_time: 1.5576918125152588
+       status: 0
+      success: True
+            x: array([ 3.06732044e+00,  3.14158691e+00, -5.17737683e-03,  6.28309314e+00,
+        3.14159615e+00,  6.28317595e+00,  3.14158304e+00,  3.14167664e+00])
+[ 3.06732044e+00  3.14158691e+00 -5.17737683e-03  6.28309314e+00
+  3.14159615e+00  6.28317595e+00  3.14158304e+00  3.14167664e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867558677295
+          fun: -2.1213867558677295
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([5.12617867, 6.08736791, 4.95668689, 2.39189446, 1.02237614,
+       3.43933821, 4.90051181, 1.88523021])
+          jac: array([-1.46391954e-07, -2.95075440e-07,  2.68155691e-07, -1.30104745e-06,
+        2.02768238e-07,  2.95075654e-07, -1.24217009e-06, -2.24933766e-07])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 19
+          nit: 17
+         njev: 19
+     opt_time: 0.007538557052612305
+ staging_time: 1.7692906856536865
+       status: 0
+      success: True
+            x: array([6.28318407e+00, 8.37935523e+00, 4.71238851e+00, 1.57079446e+00,
+       1.25981311e-06, 2.09617091e+00, 4.71238758e+00, 1.57079597e+00])
+[6.28318407e+00 8.37935523e+00 4.71238851e+00 1.57079446e+00
+ 1.25981311e-06 2.09617091e+00 4.71238758e+00 1.57079597e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.121386752516057
+          fun: -2.121386752516057
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([1.38119085, 4.07540468, 3.94428367, 2.58222838, 2.52925451,
+       2.82845172, 1.46977798, 0.84403094])
+          jac: array([-7.34797946e-06,  1.94145290e-05,  6.01793401e-05,  3.48135867e-06,
+        4.32567580e-05, -1.03910553e-05,  6.01808451e-05, -2.13292259e-06])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 22
+          nit: 20
+         njev: 22
+     opt_time: 0.021178483963012695
+ staging_time: 1.8737401962280273
+       status: 0
+      success: True
+            x: array([ 3.14158068,  6.28324963,  1.22953955,  4.71238932,  3.14163341,
+        3.14158494,  5.0537027 , -1.57084369])
+[ 3.14158068  6.28324963  1.22953955  4.71238932  3.14163341  3.14158494
+  5.0537027  -1.57084369]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.121386755521429
+          fun: -2.121386755521429
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([1.07043864, 0.77530341, 4.35048553, 5.49427837, 2.11992727,
+       6.23580522, 0.82649064, 3.14366508])
+          jac: array([-8.50002896e-06, -8.35668489e-06, -2.19962919e-06,  5.85246878e-08,
+        8.50028147e-06, -5.44115323e-06, -1.17788625e-05,  7.60255323e-06])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 21
+          nit: 17
+         njev: 21
+     opt_time: 0.01103663444519043
+ staging_time: 1.1304404735565186
+       status: 0
+      success: True
+            x: array([ 1.05675872, -1.57081935,  4.71238716,  4.71239231,  1.05676673,
+        4.71237062,  1.57078523,  4.71241569])
+[ 1.05675872 -1.57081935  4.71238716  4.71239231  1.05676673  4.71237062
+  1.57078523  4.71241569]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.121386755863732
+          fun: -2.121386755863732
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([1.91195793, 2.14209547, 0.88426522, 3.0599224 , 5.53577981,
+       2.84625176, 2.98450159, 5.54390906])
+          jac: array([ 2.29792157e-07, -1.11749061e-06, -1.24839542e-06,  9.80872577e-07,
+        2.29791519e-07, -1.47132279e-06,  4.07153958e-07,  3.12355406e-07])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 25
+          nit: 22
+         njev: 25
+     opt_time: 0.012029409408569336
+ staging_time: 1.1515958309173584
+       status: 0
+      success: True
+            x: array([0.49553957, 1.57079695, 1.57079546, 1.57079762, 5.78764595,
+       4.71238085, 1.57079671, 7.85397867])
+[0.49553957 1.57079695 1.57079546 1.57079762 5.78764595 4.71238085
+ 1.57079671 7.85397867]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.121386755713759
+          fun: -2.121386755713759
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([1.5097007 , 5.99075033, 4.05774662, 0.1121998 , 6.25884311,
+       4.6193635 , 4.53609826, 2.57922563])
+          jac: array([ 4.45524622e-06, -2.37308255e-06,  2.92080890e-06,  2.10361536e-06,
+        7.66343048e-06,  2.37335619e-06,  3.00851070e-07, -4.93099989e-07])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 15
+          nit: 14
+         njev: 15
+     opt_time: 0.007840633392333984
+ staging_time: 1.8972485065460205
+       status: 0
+      success: True
+            x: array([2.26094763e-05, 5.64280736e+00, 4.71239410e+00, 1.57080213e+00,
+       6.28320604e+00, 5.64281962e+00, 4.71238516e+00, 1.57080117e+00])
+[2.26094763e-05 5.64280736e+00 4.71239410e+00 1.57080213e+00
+ 6.28320604e+00 5.64281962e+00 4.71238516e+00 1.57080117e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1251570339190846
+          fun: -2.1251570339190846
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([3.44485763, 1.41867233, 0.56075111, 2.83918059, 4.85931819,
+       4.28585275, 5.41699371, 2.85159221])
+          jac: array([ 4.65891618e-05, -6.12021317e-06,  3.52366023e-06,  3.61050940e-06,
+       -2.69301693e-05,  5.24688356e-06,  1.08257314e-05, -3.14350856e-06])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 27
+          nit: 22
+         njev: 27
+     opt_time: 0.013283967971801758
+ staging_time: 1.4735498428344727
+       status: 0
+      success: True
+            x: array([ 3.06734859e+00, -7.80871056e-06,  5.18968233e-03,  3.14164156e+00,
+        3.14156727e+00,  3.14161018e+00,  6.28319602e+00,  3.14163569e+00])
+[ 3.06734859e+00 -7.80871056e-06  5.18968233e-03  3.14164156e+00
+  3.14156727e+00  3.14161018e+00  6.28319602e+00  3.14163569e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1251570347237325
+          fun: -2.1251570347237325
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([3.33494173, 2.48953638, 4.51604178, 3.44376358, 3.65728561,
+       1.05338191, 0.18395406, 1.31156415])
+          jac: array([ 1.20939610e-05, -5.33878887e-06,  1.06441432e-06,  5.26118571e-06,
+       -8.92493721e-06, -7.03264848e-06,  2.22354725e-06, -5.67895748e-06])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 25
+          nit: 23
+         njev: 25
+     opt_time: 0.0227053165435791
+ staging_time: 1.7882411479949951
+       status: 0
+      success: True
+            x: array([ 3.21587940e+00,  3.14158330e+00,  3.13640716e+00,  3.14157805e+00,
+        3.14158405e+00, -5.73973430e-05,  2.60861454e-06,  3.14152315e+00])
+[ 3.21587940e+00  3.14158330e+00  3.13640716e+00  3.14157805e+00
+  3.14158405e+00 -5.73973430e-05  2.60861454e-06  3.14152315e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.12138675586692
+          fun: -2.12138675586692
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([3.23302838, 1.48161837, 1.4453816 , 3.1775021 , 0.84310899,
+       3.52777144, 3.02849659, 4.27048474])
+          jac: array([-1.06196963e-06,  5.92113047e-07,  5.78491040e-08,  1.69318114e-06,
+       -1.06197007e-06,  2.04349279e-07, -4.28595234e-07, -3.74314787e-07])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 19
+          nit: 17
+         njev: 19
+     opt_time: 0.008908510208129883
+ staging_time: 1.3811938762664795
+       status: 0
+      success: True
+            x: array([4.28887415, 1.57079722, 1.5707965 , 4.71239155, 1.99431015,
+       4.71238932, 4.71238858, 4.71238746])
+[4.28887415 1.57079722 1.5707965  4.71239155 1.99431015 4.71238932
+ 4.71238858 4.71238746]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867557191906
+          fun: -2.1213867557191906
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([3.23460213, 2.93927322, 0.54774299, 5.2093603 , 1.87641397,
+       0.19695203, 4.26003581, 5.67678902])
+          jac: array([-3.68107938e-06, -8.04215622e-06, -4.34006201e-06,  1.60924591e-06,
+       -4.42455682e-06,  1.37291676e-06,  4.33994033e-06,  4.22595211e-06])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 15
+          nit: 14
+         njev: 15
+     opt_time: 0.008484840393066406
+ staging_time: 1.4231741428375244
+       status: 0
+      success: True
+            x: array([3.14159015e+00, 3.14157785e+00, 9.31741282e-01, 4.71238634e+00,
+       3.14158848e+00, 9.65290725e-06, 4.07333811e+00, 4.71241928e+00])
+[3.14159015e+00 3.14157785e+00 9.31741282e-01 4.71238634e+00
+ 3.14158848e+00 9.65290725e-06 4.07333811e+00 4.71241928e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867558237305
+          fun: -2.1213867558237305
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([4.54160132, 0.2946519 , 5.16044826, 3.71882574, 1.583812  ,
+       1.97968523, 1.1802211 , 2.20112489])
+          jac: array([ 3.31154932e-06,  2.23246268e-06, -1.97487381e-06, -4.00377246e-06,
+        3.31155153e-06,  1.99188070e-06,  5.38116994e-06, -1.52655578e-07])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 17
+          nit: 15
+         njev: 17
+     opt_time: 0.016475439071655273
+ staging_time: 1.3714818954467773
+       status: 0
+      success: True
+            x: array([3.91005592, 1.5708003 , 4.71238715, 4.71238213, 2.37313251,
+       1.57080461, 1.5708014 , 4.71239457])
+[3.91005592 1.5708003  4.71238715 4.71238213 2.37313251 1.57080461
+ 1.5708014  4.71239457]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867557727144
+          fun: -2.1213867557727144
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([4.39886038, 5.86155859, 5.29175458, 5.02629054, 6.11242903,
+       3.36833034, 3.18703771, 5.99937921])
+          jac: array([ 9.54038701e-06, -4.13119559e-07,  6.18436638e-06,  6.39134794e-06,
+       -9.54300525e-06,  4.13126939e-07,  2.89923561e-06,  1.27649269e-06])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 25
+          nit: 22
+         njev: 25
+     opt_time: 0.013567686080932617
+ staging_time: 1.3053183555603027
+       status: 0
+      success: True
+            x: array([6.28320132, 4.52823829, 4.71239285, 4.71239877, 6.28319205,
+       4.52824486, 1.57079835, 4.71239778])
+[6.28320132 4.52823829 4.71239285 4.71239877 6.28319205 4.52824486
+ 1.57079835 4.71239778]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867557709722
+          fun: -2.1213867557709722
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([4.23042079, 4.38459305, 4.60421267, 4.95035871, 0.47988657,
+       1.99604606, 4.65598657, 2.06399011])
+          jac: array([-1.84133806e-06,  8.60697779e-06, -3.62152364e-06,  2.86033364e-06,
+       -1.84139507e-06,  3.01074109e-06, -3.80096193e-06, -3.31234351e-06])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 21
+          nit: 17
+         njev: 21
+     opt_time: 0.014892339706420898
+ staging_time: 1.3978023529052734
+       status: 0
+      success: True
+            x: array([10.29297826,  1.57081338,  4.71238637,  4.71239099, -4.00979469,
+        1.57079212,  1.57079275, -1.57080588])
+[10.29297826  1.57081338  4.71238637  4.71239099 -4.00979469  1.57079212
+  1.57079275 -1.57080588]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.125157035186411
+          fun: -2.125157035186411
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([3.10088262, 2.84354157, 2.28176812, 1.64798317, 3.71542574,
+       1.94785642, 0.27460439, 4.44931374])
+          jac: array([ 1.47781790e-06, -7.40878350e-07,  2.64313371e-06,  1.25971267e-06,
+        1.36673907e-06, -5.40017146e-07,  7.48502798e-07, -9.78200226e-07])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 21
+          nit: 19
+         njev: 21
+     opt_time: 0.011116981506347656
+ staging_time: 1.6927590370178223
+       status: 0
+      success: True
+            x: array([ 3.21587156e+00,  3.14159131e+00,  3.13641012e+00,  3.14162495e+00,
+        3.14159391e+00, -6.59402250e-06,  7.51756134e-07,  3.14161664e+00])
+[ 3.21587156e+00  3.14159131e+00  3.13641012e+00  3.14162495e+00
+  3.14159391e+00 -6.59402250e-06  7.51756134e-07  3.14161664e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867558576656
+          fun: -2.1213867558576656
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([5.31162983, 1.46854748, 2.02578962, 4.5028825 , 0.64611503,
+       3.77048096, 0.85617132, 5.65017879])
+          jac: array([ 4.11820982e-07,  7.22661777e-07,  4.55484920e-07,  5.96244463e-07,
+        3.93154357e-07,  7.22660769e-07,  1.50294717e-06, -2.23718500e-06])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 26
+          nit: 23
+         njev: 26
+     opt_time: 0.013752222061157227
+ staging_time: 1.1654667854309082
+       status: 0
+      success: True
+            x: array([ 6.28318591e+00,  1.37259008e+00,  1.57079697e+00,  4.71239002e+00,
+       -2.18272954e-07,  4.91059216e+00, -1.57079478e+00,  4.71237826e+00])
+[ 6.28318591e+00  1.37259008e+00  1.57079697e+00  4.71239002e+00
+ -2.18272954e-07  4.91059216e+00 -1.57079478e+00  4.71237826e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1251570349365245
+          fun: -2.1251570349365245
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([0.4193542 , 3.14585814, 2.71526091, 5.94814024, 2.61543791,
+       1.5548979 , 2.53929807, 3.98516736])
+          jac: array([-1.44539896e-05, -6.39737559e-06, -1.70786633e-06,  6.09575173e-06,
+        7.56680042e-06, -5.08529829e-06,  1.02357397e-05,  6.43716622e-06])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 33
+          nit: 29
+         njev: 33
+     opt_time: 0.012966156005859375
+ staging_time: 1.6642377376556396
+       status: 0
+      success: True
+            x: array([7.42673064e-02, 3.14158600e+00, 3.14677585e+00, 6.28316092e+00,
+       7.08246924e-06, 3.14158219e+00, 3.14160260e+00, 3.14163515e+00])
+[7.42673064e-02 3.14158600e+00 3.14677585e+00 6.28316092e+00
+ 7.08246924e-06 3.14158219e+00 3.14160260e+00 3.14163515e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867557108252
+          fun: -2.1213867557108252
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([4.85456907, 1.95173298, 2.53892946, 3.74980529, 1.51697938,
+       5.6908056 , 1.00035746, 3.69868296])
+          jac: array([-9.85507713e-06,  7.73514608e-07,  1.08158919e-06, -4.35712585e-07,
+       -9.85546769e-06,  3.40901034e-06, -7.75064203e-07,  3.57530297e-07])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 26
+          nit: 22
+         njev: 26
+     opt_time: 0.011026144027709961
+ staging_time: 1.680347204208374
+       status: 0
+      success: True
+            x: array([ 3.55599227,  1.57083452,  1.57079699,  4.71238606,  2.72718375,
+        4.71244503, -1.57079706,  4.71240217])
+[ 3.55599227  1.57083452  1.57079699  4.71238606  2.72718375  4.71244503
+ -1.57079706  4.71240217]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867557068706
+          fun: -2.1213867557068706
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([4.46414823, 0.70937712, 5.46619531, 2.99348426, 0.50435682,
+       0.93475238, 2.03590443, 0.0424579 ])
+          jac: array([-1.12736912e-06, -5.75328983e-07,  3.41619901e-06,  6.61596923e-06,
+        7.05676976e-06,  5.75523972e-07,  2.66091183e-06,  1.05064321e-06])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 19
+          nit: 17
+         njev: 19
+     opt_time: 0.009819984436035156
+ staging_time: 1.4485602378845215
+       status: 0
+      success: True
+            x: array([ 6.28317467e+00,  4.69680736e-01,  4.71241160e+00,  4.71240163e+00,
+        1.14644000e-05,  4.69687519e-01,  1.57081901e+00, -1.57078831e+00])
+[ 6.28317467e+00  4.69680736e-01  4.71241160e+00  4.71240163e+00
+  1.14644000e-05  4.69687519e-01  1.57081901e+00 -1.57078831e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.121386752164327
+          fun: -2.121386752164327
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([2.3507141 , 5.86586976, 4.07239128, 4.22098846, 5.85324935,
+       4.20965929, 1.45848132, 1.60745464])
+          jac: array([ 1.42073649e-05,  4.24377989e-06,  3.77003039e-05, -9.16605943e-06,
+       -1.98352780e-05,  1.45119509e-05, -3.77445811e-05, -1.66253747e-05])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 25
+          nit: 20
+         njev: 25
+     opt_time: 0.020008087158203125
+ staging_time: 1.2457365989685059
+       status: 0
+      success: True
+            x: array([-2.99262945e-05,  6.28319567e+00,  6.12674761e+00,  4.71304636e+00,
+        6.28316662e+00,  6.28321271e+00,  2.98512116e+00,  4.71168097e+00])
+[-2.99262945e-05  6.28319567e+00  6.12674761e+00  4.71304636e+00
+  6.28316662e+00  6.28321271e+00  2.98512116e+00  4.71168097e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867557445405
+          fun: -2.1213867557445405
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([0.49958255, 4.7798634 , 5.40475375, 1.0389324 , 4.12369133,
+       2.32135874, 5.13611895, 5.77268016])
+          jac: array([ 2.23444496e-06, -1.34939770e-09, -7.55270780e-06,  4.14011908e-06,
+       -2.23464444e-06, -2.93329300e-06,  7.58735276e-06,  1.87001181e-06])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 21
+          nit: 19
+         njev: 21
+     opt_time: 0.008264780044555664
+ staging_time: 2.0232741832733154
+       status: 0
+      success: True
+            x: array([-0.42119518,  4.71236119,  4.71238286,  1.57080518,  5.86198802,
+        4.71235256,  4.71239613,  7.85398301])
+[-0.42119518  4.71236119  4.71238286  1.57080518  5.86198802  4.71235256
+  4.71239613  7.85398301]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.125157034893364
+          fun: -2.125157034893364
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([1.50944213, 3.42699331, 2.51675817, 4.49368316, 5.25701511,
+       3.69753607, 1.86079401, 1.76568622])
+          jac: array([-1.86614869e-05,  1.56159245e-06,  4.58845621e-06,  4.69861766e-06,
+        4.55055367e-06, -4.62236650e-06,  1.04870725e-05,  3.62394819e-06])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 36
+          nit: 31
+         njev: 36
+     opt_time: 0.03328657150268555
+ staging_time: 1.5002095699310303
+       status: 0
+      success: True
+            x: array([-7.42913783e-02,  3.14159457e+00,  3.13641227e+00,  3.14170559e+00,
+        6.28318956e+00,  3.14157923e+00,  3.14160267e+00, -1.03906394e-04])
+[-7.42913783e-02  3.14159457e+00  3.13641227e+00  3.14170559e+00
+  6.28318956e+00  3.14157923e+00  3.14160267e+00 -1.03906394e-04]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1251570342052077
+          fun: -2.1251570342052077
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([0.31590523, 3.06262422, 4.0855643 , 5.7866804 , 4.64160278,
+       1.55459873, 3.25489839, 4.17256195])
+          jac: array([ 1.90085817e-05, -6.10907510e-06,  5.46587408e-06, -1.16899645e-05,
+       -9.49669770e-07, -6.82234767e-06,  4.82023386e-06, -1.17819535e-05])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 27
+          nit: 26
+         njev: 27
+     opt_time: 0.02365422248840332
+ staging_time: 1.5421719551086426
+       status: 0
+      success: True
+            x: array([0.07429213, 3.14158028, 3.14678857, 6.28314976, 6.2831841 ,
+       3.14151714, 3.14159783, 3.14153786])
+[0.07429213 3.14158028 3.14678857 6.28314976 6.2831841  3.14151714
+ 3.14159783 3.14153786]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.121386755868752
+          fun: -2.121386755868752
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([0.09300545, 1.42992561, 4.47194138, 5.15920448, 4.98461097,
+       3.1115338 , 3.52219469, 3.23540545])
+          jac: array([ 4.54207534e-07, -3.65407665e-08, -1.17649954e-07,  3.37948094e-07,
+       -4.36363784e-07,  3.65417780e-08,  2.03148639e-07, -4.67129961e-07])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 20
+          nit: 18
+         njev: 20
+     opt_time: 0.010911703109741211
+ staging_time: 1.5051019191741943
+       status: 0
+      success: True
+            x: array([1.70766856e-06, 2.56854405e+00, 4.71238831e+00, 4.71238961e+00,
+       6.28318397e+00, 2.56854274e+00, 1.57079709e+00, 4.71238637e+00])
+[1.70766856e-06 2.56854405e+00 4.71238831e+00 4.71238961e+00
+ 6.28318397e+00 2.56854274e+00 1.57079709e+00 4.71238637e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1251570351941917
+          fun: -2.1251570351941917
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([1.67949169, 0.75716353, 6.2634366 , 0.50541747, 1.78819297,
+       3.36307619, 5.31433138, 1.25741703])
+          jac: array([ 6.14152819e-07,  1.92790676e-06, -6.74764338e-07, -1.64601078e-07,
+       -2.90806362e-06, -9.39571984e-07, -7.89950644e-07,  3.25155506e-07])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 35
+          nit: 31
+         njev: 35
+     opt_time: 0.017855167388916016
+ staging_time: 1.1446242332458496
+       status: 0
+      success: True
+            x: array([ 3.06731518e+00, -3.14159044e+00,  3.14677812e+00,  1.72116137e-05,
+        3.14158990e+00,  6.28318038e+00,  6.28318468e+00,  1.50580380e-05])
+[ 3.06731518e+00 -3.14159044e+00  3.14677812e+00  1.72116137e-05
+  3.14158990e+00  6.28318038e+00  6.28318468e+00  1.50580380e-05]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867558693833
+          fun: -2.1213867558693833
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([0.56262293, 4.93324852, 2.50769146, 2.78153715, 4.82747734,
+       3.55689904, 1.54169781, 3.42437788])
+          jac: array([-1.59260163e-08, -2.60162078e-07,  8.84758977e-08,  7.63331447e-07,
+        2.99918813e-07, -2.60161661e-07, -9.03570714e-08,  3.56231635e-07])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 19
+          nit: 16
+         njev: 19
+     opt_time: 0.007392406463623047
+ staging_time: 1.3712949752807617
+       status: 0
+      success: True
+            x: array([7.92232384e-07, 4.13758838e+00, 1.57079630e+00, 1.57079736e+00,
+       6.28318625e+00, 2.14559656e+00, 1.57079623e+00, 1.57079756e+00])
+[7.92232384e-07 4.13758838e+00 1.57079630e+00 1.57079736e+00
+ 6.28318625e+00 2.14559656e+00 1.57079623e+00 1.57079756e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867558692985
+          fun: -2.1213867558692985
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([1.28079624, 0.842261  , 3.8642508 , 3.72584757, 4.05127532,
+       6.21231432, 2.1058888 , 5.0800736 ])
+          jac: array([ 2.22413623e-07,  4.20709991e-07, -4.45956438e-07, -6.43385988e-07,
+        2.22413494e-07,  4.63202250e-07, -1.77862880e-07, -3.08591136e-07])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 16
+          nit: 14
+         njev: 16
+     opt_time: 0.0066835880279541016
+ staging_time: 1.1518750190734863
+       status: 0
+      success: True
+            x: array([1.89657155, 1.5707967 , 4.71238859, 4.71238793, 4.38661396,
+       7.85398322, 1.57079616, 4.71238869])
+[1.89657155 1.5707967  4.71238859 4.71238793 4.38661396 7.85398322
+ 1.57079616 4.71238869]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867558518738
+          fun: -2.1213867558518738
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([1.77525441, 1.84773772, 3.60649128, 0.29609166, 2.4321214 ,
+       5.24380272, 3.27396095, 0.80125982])
+          jac: array([ 2.93514062e-07, -7.10817181e-07,  5.96995572e-06,  6.43032511e-07,
+        1.14851285e-07, -2.34690136e-07,  5.96995160e-06,  4.48843556e-08])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 21
+          nit: 19
+         njev: 21
+     opt_time: 0.008296012878417969
+ staging_time: 1.9037976264953613
+       status: 0
+      success: True
+            x: array([3.14159332, 3.14158919, 5.05442891, 1.57079774, 3.14159276,
+       6.28318731, 4.37035469, 1.57079529])
+[3.14159332 3.14158919 5.05442891 1.57079774 3.14159276 6.28318731
+ 4.37035469 1.57079529]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.121386755866167
+          fun: -2.121386755866167
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([2.62887824, 0.82321599, 1.82495196, 3.11209998, 6.0758673 ,
+       1.86855562, 4.09539235, 3.36535509])
+          jac: array([-1.36061436e-06, -1.15365021e-06,  5.46685827e-07, -1.19784259e-06,
+       -1.36061539e-06,  1.64347812e-07,  8.88769752e-07,  7.99277089e-09])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 20
+          nit: 17
+         njev: 20
+     opt_time: 0.019698619842529297
+ staging_time: 1.5893456935882568
+       status: 0
+      success: True
+            x: array([ 1.33917606,  1.57079398,  1.57079663,  4.71238689,  4.94400796,
+       -1.5707948 ,  4.71238982,  4.71238956])
+[ 1.33917606  1.57079398  1.57079663  4.71238689  4.94400796 -1.5707948
+  4.71238982  4.71238956]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.121386755842424
+          fun: -2.121386755842424
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([4.61621604, 4.07551825, 5.81695244, 1.42721388, 2.5481631 ,
+       5.55232984, 1.31256442, 1.34326499])
+          jac: array([ 1.90271235e-06, -2.52247075e-06, -1.35819926e-06,  3.56587695e-07,
+        2.86085641e-06,  2.52247766e-06, -2.13574907e-06, -1.64136844e-06])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 19
+          nit: 18
+         njev: 19
+     opt_time: 0.015845775604248047
+ staging_time: 1.2784762382507324
+       status: 0
+      success: True
+            x: array([3.14159727, 3.40872356, 7.85398899, 1.57079729, 3.14159657,
+       6.55032561, 1.57078722, 1.57079495])
+[3.14159727 3.40872356 7.85398899 1.57079729 3.14159657 6.55032561
+ 1.57078722 1.57079495]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867558541764
+          fun: -2.1213867558541764
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([5.37855664, 3.0583574 , 1.57300573, 5.29307394, 5.0254766 ,
+       4.8533918 , 5.15015222, 0.35955836])
+          jac: array([ 2.20607504e-06,  1.27777394e-06, -2.87678171e-06,  3.40965444e-07,
+       -1.91688985e-06,  2.00319753e-07, -2.87673504e-06,  3.61203061e-08])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 17
+          nit: 16
+         njev: 17
+     opt_time: 0.009648323059082031
+ staging_time: 1.1349341869354248
+       status: 0
+      success: True
+            x: array([ 6.28318854,  3.14160426,  1.29949452,  4.71239052,  6.2831835 ,
+        3.1415829 ,  4.98368803, -1.57079479])
+[ 6.28318854  3.14160426  1.29949452  4.71239052  6.2831835   3.1415829
+  4.98368803 -1.57079479]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1251570348589985
+          fun: -2.1251570348589985
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([5.8162421 , 3.87696797, 4.19000721, 2.09796714, 1.14926368,
+       2.27741297, 2.52493627, 4.78722712])
+          jac: array([ 4.50507140e-06, -2.93346990e-07,  1.01801832e-05, -7.81593580e-06,
+        5.72243965e-06,  1.05670844e-05, -3.62511679e-06, -7.75695714e-06])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 23
+          nit: 19
+         njev: 23
+     opt_time: 0.008631706237792969
+ staging_time: 1.6284592151641846
+       status: 0
+      success: True
+            x: array([6.20891114e+00, 3.14159258e+00, 3.13642205e+00, 3.14158052e+00,
+       5.40342635e-06, 3.14162816e+00, 3.14158931e+00, 6.28318550e+00])
+[6.20891114e+00 3.14159258e+00 3.13642205e+00 3.14158052e+00
+ 5.40342635e-06 3.14162816e+00 3.14158931e+00 6.28318550e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.125157035199218
+          fun: -2.125157035199218
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([1.10052833, 2.87041973, 5.83543567, 0.06211486, 0.56499781,
+       5.34196583, 3.0512471 , 5.50932051])
+          jac: array([-1.44266345e-06, -5.70641830e-07,  1.10157455e-06,  1.50678907e-07,
+        1.65607378e-06, -2.11518511e-09,  1.00644127e-06, -2.85655922e-08])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 30
+          nit: 25
+         njev: 30
+     opt_time: 0.01664566993713379
+ staging_time: 1.146010160446167
+       status: 0
+      success: True
+            x: array([7.42769590e-02, 3.14159198e+00, 3.14678082e+00, 1.81170433e-05,
+       1.55224415e-06, 3.14159274e+00, 3.14159365e+00, 3.14157470e+00])
+[7.42769590e-02 3.14159198e+00 3.14678082e+00 1.81170433e-05
+ 1.55224415e-06 3.14159274e+00 3.14159365e+00 3.14157470e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.125157035195527
+          fun: -2.125157035195527
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([0.62751906, 2.6198614 , 5.74063737, 2.20363567, 0.72008051,
+       4.47745057, 0.64016958, 2.54909104])
+          jac: array([-1.12080429e-06, -1.29510467e-06,  8.54228084e-07,  5.12036457e-07,
+        2.07898850e-06, -7.79723829e-07,  9.98300682e-07, -6.45144207e-07])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 27
+          nit: 24
+         njev: 27
+     opt_time: 0.021613359451293945
+ staging_time: 1.6532244682312012
+       status: 0
+      success: True
+            x: array([-7.42788213e-02,  3.14159161e+00,  6.28837322e+00,  3.14158188e+00,
+        1.94347627e-06,  3.14158678e+00,  8.73781592e-07,  3.14157662e+00])
+[-7.42788213e-02  3.14159161e+00  6.28837322e+00  3.14158188e+00
+  1.94347627e-06  3.14158678e+00  8.73781592e-07  3.14157662e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867557493162
+          fun: -2.1213867557493162
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([1.57963828, 3.99111944, 3.64297689, 3.88810558, 2.31078042,
+       1.62211294, 1.22113826, 3.47158804])
+          jac: array([-6.97378924e-07, -3.58714687e-06,  5.70163580e-06, -2.65601719e-06,
+       -3.02342447e-06, -3.58710316e-06,  1.73884736e-07,  5.78913728e-06])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 21
+          nit: 19
+         njev: 21
+     opt_time: 0.02750706672668457
+ staging_time: 1.216064691543579
+       status: 0
+      success: True
+            x: array([3.14158511, 5.61016653, 4.7124002 , 4.71238317, 3.1415851 ,
+       3.81460931, 1.57078772, 4.71241113])
+[3.14158511 5.61016653 4.7124002  4.71238317 3.1415851  3.81460931
+ 1.57078772 4.71241113]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1251570350493116
+          fun: -2.1251570350493116
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([5.95225424, 3.94208038, 6.23471896, 0.47828388, 2.15267286,
+       1.92853271, 4.46234732, 5.76367611])
+          jac: array([-1.95724072e-06, -4.55603633e-06, -5.68640148e-06, -1.40505985e-06,
+       -1.15812980e-06,  4.48444521e-06,  9.17722243e-06,  1.34307677e-06])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 24
+          nit: 22
+         njev: 24
+     opt_time: 0.010496139526367188
+ staging_time: 1.284245252609253
+       status: 0
+      success: True
+            x: array([ 6.35746212e+00,  3.14158830e+00,  6.27799009e+00, -1.68919074e-05,
+       -1.06738478e-06,  3.14162111e+00,  6.28319425e+00,  6.28318837e+00])
+[ 6.35746212e+00  3.14158830e+00  6.27799009e+00 -1.68919074e-05
+ -1.06738478e-06  3.14162111e+00  6.28319425e+00  6.28318837e+00]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.121386503138781
+          fun: -2.121386503138781
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([2.7726007 , 5.89727549, 4.50930943, 5.28006952, 1.83166405,
+       5.24793893, 2.81133004, 1.81760145])
+          jac: array([-6.53006116e-06,  1.14397043e-05,  1.53563920e-06, -2.12255181e-06,
+       -4.92375971e-06, -1.34812395e-05, -2.46225861e-06,  1.76902499e-06])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 19
+          nit: 16
+         njev: 19
+     opt_time: 0.010480642318725586
+ staging_time: 1.407665491104126
+       status: 0
+      success: True
+            x: array([3.09755483, 4.73263051, 4.71239758, 4.71224589, 3.09755922,
+       4.69209408, 1.57079383, 4.71235545])
+[3.09755483 4.73263051 4.71239758 4.71224589 3.09755922 4.69209408
+ 1.57079383 4.71235545]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867556197425
+          fun: -2.1213867556197425
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([3.3836348 , 4.68414891, 1.48030712, 2.61600728, 5.30941572,
+       2.54875367, 2.98173928, 4.35537326])
+          jac: array([ 4.38887054e-06,  1.41213521e-05,  2.18846694e-06, -9.75456519e-07,
+       -4.38860847e-06, -2.90582545e-06,  5.51985448e-07, -7.96512398e-07])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 22
+          nit: 21
+         njev: 22
+     opt_time: 0.017812252044677734
+ staging_time: 1.7675743103027344
+       status: 0
+      success: True
+            x: array([4.01874854, 4.71242189, 1.57079826, 1.57079061, 4.01874441,
+       1.5707978 , 1.57079685, 7.85396752])
+[4.01874854 4.71242189 1.57079826 1.57079061 4.01874441 1.5707978
+ 1.57079685 7.85396752]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.12138675586821
+          fun: -2.12138675586821
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([6.12168868, 3.10900033, 5.99173841, 1.92872359, 4.85956272,
+       1.9675468 , 1.89990052, 4.85729615])
+          jac: array([-2.02403880e-07, -1.50956351e-07,  1.77285365e-06, -2.07201376e-07,
+       -4.31038591e-07, -4.45598021e-07, -1.77285369e-06,  2.71856237e-07])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 23
+          nit: 20
+         njev: 23
+     opt_time: 0.009188652038574219
+ staging_time: 1.1049189567565918
+       status: 0
+      success: True
+            x: array([6.28318508, 3.14159275, 6.85115757, 1.57079644, 6.2831849 ,
+       3.14159091, 0.56797058, 7.85398193])
+[6.28318508 3.14159275 6.85115757 1.57079644 6.2831849  3.14159091
+ 0.56797058 7.85398193]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867558699273
+          fun: -2.1213867558699273
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([4.75057313, 6.12447201, 3.1941647 , 6.02237878, 3.10554829,
+       3.24945819, 2.16180725, 6.09312041])
+          jac: array([-5.33342265e-08, -2.14427462e-07, -6.04654982e-07, -9.73057981e-08,
+        3.45798865e-07, -8.49456902e-09, -6.04654930e-07,  3.28936982e-08])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 17
+          nit: 16
+         njev: 17
+     opt_time: 0.008727550506591797
+ staging_time: 1.2546367645263672
+       status: 0
+      success: True
+            x: array([3.14159258, 6.28318492, 4.04758568, 4.71238861, 3.14159298,
+       3.14159302, 2.23559905, 4.71238939])
+[3.14159258 6.28318492 4.04758568 4.71238861 3.14159298 3.14159302
+ 2.23559905 4.71238939]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.121386755825172
+          fun: -2.121386755825172
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([3.59028726, 0.24477383, 2.05175824, 1.82726454, 3.20796305,
+       1.90912585, 1.90847974, 0.89957722])
+          jac: array([-6.44556986e-07,  1.25959444e-06,  8.45199118e-07, -3.98187749e-06,
+        4.89577545e-06, -1.25967900e-06,  6.12324419e-07,  1.80264056e-06])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 19
+          nit: 16
+         njev: 19
+     opt_time: 0.007525444030761719
+ staging_time: 1.2766752243041992
+       status: 0
+      success: True
+            x: array([ 3.14159474, -0.26334685,  1.5708136 ,  1.57078935,  3.14159781,
+        2.87824431,  1.57081358,  1.57080276])
+[ 3.14159474 -0.26334685  1.5708136   1.57078935  3.14159781  2.87824431
+  1.57081358  1.57080276]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867557842274
+          fun: -2.1213867557842274
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([1.28600508, 2.16860068, 1.33454887, 1.87779343, 2.15921936,
+       5.71746124, 0.85226254, 1.22404654])
+          jac: array([ 2.23578160e-06, -4.60020153e-06,  7.24789252e-06,  8.58056633e-07,
+        1.02379457e-06,  4.60018490e-06,  7.44112125e-06, -4.21817724e-06])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 21
+          nit: 18
+         njev: 21
+     opt_time: 0.018416643142700195
+ staging_time: 1.6211812496185303
+       status: 0
+      success: True
+            x: array([3.1415982 , 3.59921639, 1.5707983 , 1.57079825, 3.14159607,
+       6.74082219, 1.57080157, 1.57078666])
+[3.1415982  3.59921639 1.5707983  1.57079825 3.14159607 6.74082219
+ 1.57080157 1.57078666]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.1213867551054575
+          fun: -2.1213867551054575
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([2.12073575, 0.51868169, 2.29460517, 2.56914043, 5.86387481,
+       1.83464151, 5.26933919, 6.21544001])
+          jac: array([-7.53047787e-06, -3.91057214e-06, -3.25739983e-05, -9.61915726e-06,
+       -7.53152110e-06, -6.47346319e-08, -3.72063310e-06,  4.44141121e-06])
+      message: 'CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH'
+         nfev: 21
+          nit: 20
+         njev: 21
+     opt_time: 0.011058568954467773
+ staging_time: 1.136995553970337
+       status: 0
+      success: True
+            x: array([ 0.29373307,  1.57071421,  1.57077083,  4.71236787,  5.98944515,
+       -1.57070365,  4.71238547,  4.71241472])
+[ 0.29373307  1.57071421  1.57077083  4.71236787  5.98944515 -1.57070365
+  4.71238547  4.71241472]
+No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+      energy (Hartree)  error (mH) correlation energy (%)
+HF           -2.121387   20.812319                 -0.000
+MP2          -2.135608    6.590697                 68.333
+CCSD         -2.142199   -0.000025                100.000
+FCI          -2.142199    0.000000                100.000
+############################### Circuit ###############################
+   #qubits  #gates  #CNOT  #multicontrol  depth #FLOP
+0        4      11      3              0      5   368
+######################### Optimization Result #########################
+            e: -2.121386755780629
+          fun: -2.121386755780629
+     hess_inv: <8x8 LbfgsInvHessProduct with dtype=float64>
+   init_guess: array([6.22429552, 0.04288735, 4.83675224, 4.69207608, 2.37151878,
+       3.10482001, 5.83675489, 2.48471104])
+          jac: array([ 1.18119689e-06,  5.52238832e-06,  9.46225063e-07,  3.86290313e-06,
+        2.24173838e-06, -5.52239962e-06,  1.01874445e-06,  1.01423444e-06])
+      message: 'CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL'
+         nfev: 32
+          nit: 25
+         njev: 32
+     opt_time: 0.01928544044494629
+ staging_time: 1.4265813827514648
+       status: 0
+      success: True
+            x: array([ 6.28318117e+00,  1.09527177e+00, -1.57079553e+00,  1.57080211e+00,
+        5.79428328e-06,  1.09524280e+00,  1.09955749e+01,  1.57078427e+00])
+[ 6.28318117e+00  1.09527177e+00 -1.57079553e+00  1.57080211e+00
+  5.79428328e-06  1.09524280e+00  1.09955749e+01  1.57078427e+00]
