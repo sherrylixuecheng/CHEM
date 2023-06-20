@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/sherrylixuecheng/CHEM">
-    <img width=80% src="https://github.com/sherrylixuecheng/CHEM/blob/main/diagram.png">
+    <img width=80% src="https://github.com/sherrylixuecheng/CHEM/blob/main/workflow.png">
   </a>
 </p>
 
