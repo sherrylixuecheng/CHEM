@@ -46,7 +46,7 @@ This repository requires to install two open-sourced packages:
 @article{sun2023chem,
   title={Towards chemical accuracy with shallow quantum circuits: A Clifford Hamiltonian engineering approach},
   author={Sun, Jiace and Cheng, Lixue and Li, Weitang},
-  journal={arXiv preprint arXiv:230x.xxxx},
+  journal={arXiv preprint arXiv:2306.12053},
   year={2023}
 }
 ```
