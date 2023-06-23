@@ -40,7 +40,7 @@ elif molecule == 'beh2':
     hf.kernel()
     hf.mo_coeff = hf.mo_coeff[:, [0, 1, 2, 5, 6, 3, 4]]
     uccsd = UCCSD(mol, active_space=(4, 4), mo_coeff=hf.mo_coeff)
-    uccsd.print_energy()   
+    uccsd.print_energy()
     # uccsd.kernel()
     # print(uccsd.e_hf, uccsd.e_mp2, uccsd.e_ccsd, uccsd.e_fci, uccsd.energy())
 uccsd.print_summary()
@@ -79,7 +79,7 @@ init_X = np.random.uniform(low=0, high=2*np.pi, size=hea_nonoise.init_guess.shap
 #init_Xadd = np.zeros((6,))
 #hea_nonoise.init_guess = np.hstack([init_X,init_Xadd]).ravel()
 hea_nonoise.init_guess = init_X
-print(hea_nonoise.init_guess)                          
+print(hea_nonoise.init_guess)
 np.save('results/X/{}/x0_{}_{}.npy'.format(molecule, nlayers, trials), hea_nonoise.init_guess)
 
 # f2 = hea_nonoise.get_opt_function()
@@ -185,4 +185,3 @@ else:
     np.save(
         'results/gate+shot_noise/{}/{}/{}_{}_{}'.format(
             molecule, methods, nlayers, shots, trials), y)
-sys.exit()

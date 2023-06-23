@@ -15,34 +15,28 @@ clifford1 = CliffordArray.from_qiskit(Iclifford.clifford1)
 cnot = CliffordArray.from_qiskit(Iclifford.gate2clifford('cnot', [0, 1], 2))
 
 
-def simplify_pauli(p: qskQ.Pauli):
-    p = p.copy()
-    p.z = False
-    return p
-
-
-def simplify_hamiltonian(hamiltonian: Ihamiltonian.Hamiltonian, remove_I=True):
-    keys = [simplify_pauli(item) for item in list(hamiltonian.keys())]
-    values = np.array(list(hamiltonian.values()))
-    data = {}
-    for key, value in zip(keys, values):
-        assert key.phase in [0, 2]
-        if key.phase == 0:
-            positive_key = key
-            positive_value = value
-        else:
-            positive_key = -key
-            positive_value = -value
-        if positive_key not in data:
-            data[positive_key] = 0
-        data[positive_key] += positive_value
-    for key in list(data.keys()):
-        if abs(data[key]) < 1e-10:
-            del data[key]
+def simplify_hamiltonian(hamiltonian: Ihamiltonian.Hamiltonian, remove_I=True, cutoff=None):
+    paulis = hamiltonian.paulis.copy()
+    values = hamiltonian.values.copy()
+    nY = np.sum(paulis.x & paulis.z, axis=1)
+    assert np.all(nY % 2 == 0)
+    paulis.z = False
+    negative = paulis.phase == 2
+    paulis[negative] = -paulis[negative]
+    values[negative] = -values[negative]
+    assert np.all(paulis.phase == 0)
+    unique_x, indices = np.unique(paulis.x, axis=0, return_inverse=True)
+    new_paulis = qskQ.PauliList.from_symplectic(np.zeros_like(unique_x), unique_x)
+    new_values = np.bincount(indices, weights=values)
+    if cutoff is not None:
+        kept = np.abs(new_values) > cutoff
+        new_paulis = new_paulis[kept]
+        new_values = new_values[kept]
     if remove_I:
-        identity = Iclifford.identity_pauli(n)
-        del data[identity]
-    return Ihamiltonian.Hamiltonian(data)
+        non_identity = np.any(new_paulis.x, axis=1)
+        new_paulis = new_paulis[non_identity]
+        new_values = new_values[non_identity]
+    return Ihamiltonian.Hamiltonian(new_paulis, new_values)
 
 
 @jax.jit
@@ -107,12 +101,21 @@ class HEAState:
             ids = ry_ids[ids]
         self.ids = ids
         self.Ps_transform_all = []
-        self.clifford = CliffordArray.identity(n)
+        self.clifford = self.identity(n)
         for id_layer in ids:
             self.clifford, Ps_transform = create_new_layer(self.clifford, id_layer)
             self.Ps_transform_all.append(Ps_transform)
-        self.Ps_transform_all = PauliArray.concatenate(tuple(self.Ps_transform_all))
-        self.Ps_transform_all = self.Ps_transform_all.reshape((-1, ))
+        self.Ps_transform_all = self.concatenate(self.Ps_transform_all)
+
+    @staticmethod
+    @partial(jax.jit, static_argnums=(0, ))
+    def identity(n):
+        return CliffordArray.identity(n)
+
+    @staticmethod
+    @jax.jit
+    def concatenate(Ps):
+        return PauliArray.concatenate(tuple(Ps)).reshape((-1, ))
 
     @staticmethod
     def find_match(a, b):
@@ -131,8 +134,15 @@ class HEAState:
         return is_unique
 
     @classmethod
+    def pretransform_hamiltonian(cls, h_pauli: PauliArray):
+        h_x = h_pauli.x
+        A_h_x, b_h_x = linear_modulo_jax.Gauss_elimination(h_x.T.astype(int), jnp.eye(n, dtype=int), 2)
+        return A_h_x, b_h_x
+
+    @classmethod
     @partial(jax.jit, static_argnums=(0, ))
-    def find_best_transformation(cls, Ps: PauliArray, h_pauli: PauliArray, h_values: jnp.ndarray):
+    def find_best_transformation(cls, Ps: PauliArray, h_x: jnp.ndarray, h_values: jnp.ndarray, A_h_x: jnp.ndarray, b_h_x: jnp.ndarray):
+        # The function to achieve the greedy algorithm to find the best Uc in the paper
 
         # c1.dot(c2).x = c2.x.dot(c1.x)
         # c1.dot(c2).z = c2.z.dot(c1.z)
@@ -141,9 +151,8 @@ class HEAState:
 
         odd_Y = Ps._phase % 2 == 1
         P_x = Ps.x * odd_Y[:, None]
-        h_x = h_pauli.x
 
-        A_h_x, b_h_x = linear_modulo_jax.Gauss_elimination(h_x.T.astype(int), jnp.eye(n, dtype=int), 2)
+        #A_h_x, b_h_x = linear_modulo_jax.Gauss_elimination(h_x.T.astype(int), jnp.eye(n, dtype=int), 2)
         h_nonzero = jnp.sum(A_h_x, axis=1) > 0
         h_indices = jnp.argsort(jnp.logical_not(h_nonzero))
 
@@ -175,9 +184,11 @@ class HEAState:
         P_pivots = jnp.argmax(A_P_x[P_indices], axis=1)
         overlap = (jnp.sort(P_nonzero) & jnp.sort(h_nonzero))[::-1]
         equal = (ids_P_x[P_pivots] == ids_h_x_transform[h_pivots])
+        # success1 and success2 indicates whether the linear system is overdetermined and underdetermined (which they should not be)
         success1 = jnp.all(equal | jnp.logical_not(overlap))
         success2 = jnp.logical_not(is_over1 | is_over2 | is_under1 | is_under2)
         success = success1 & success2
+        # assert success outside this function, because this function is jitted
 
         return U_cliff, grads, score, success
 
@@ -193,11 +204,13 @@ class HEAState:
         # need jit here
         return Ps[Ps_order]
 
-    def find_best_transformation_reorder(self, h_pauli, h_values, Ps_order=None):
+    def find_best_transformation_reorder(self, h_info, Ps_order=None):
+        # a non-jitted wrapper of find_best_transformation, and apply Ps_order to reorder {Qk}
+        h_pauli, h_values, A_h_x, b_h_x = h_info
         if Ps_order is None:
             Ps_order = slice(None)
         ordered_Ps = self.get_ordered_Ps(self.Ps_transform_all, Ps_order)
-        U_cliff, grads, score, success = self.find_best_transformation(ordered_Ps, h_pauli, h_values)
+        U_cliff, grads, score, success = self.find_best_transformation(ordered_Ps, h_pauli.x, h_values, A_h_x, b_h_x)
         assert success
         original_grads = self.get_original_order(grads, Ps_order)
         return U_cliff, original_grads, score
